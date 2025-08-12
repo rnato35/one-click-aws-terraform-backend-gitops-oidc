@@ -1,5 +1,3 @@
-# One-Click Deployments #1: GitOps-Ready AWS Terraform Backend with GitHub Actions (OIDC)
-
 This repository contains the code featured in the blog post:  
 [One-Click Deployments #1: Bootstrap a GitOps-Ready AWS Terraform Backend with GitHub Actions (OIDC)](https://dev.to/rmendoza/deploying-multi-environment-aws-infrastructure-with-terraform-and-ansible-from-zero-to-production-41oa-temp-slug-212838?preview=d389586d16cd9e425b43a1a421d38f6a285c2834c5b539ac2fe61c2bcf754c6e00552d3b84b85d6865e37556b632870c8874be87660f94aff2d022b1)
 
