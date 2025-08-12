@@ -1,0 +1,21 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowBilling",
+      "Effect": "Allow",
+      "Action": [
+        "aws-portal:*",
+        "budgets:*",
+        "cur:*",
+        "ce:*",
+        "account:*",
+        "tax:*",
+        "payments:*",
+        "invoicing:*",
+        "freetier:*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

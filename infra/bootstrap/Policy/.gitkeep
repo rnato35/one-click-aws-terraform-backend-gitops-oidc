@@ -1,0 +1,2 @@
+# Place IAM policy JSON documents in this folder.
+# Each *.json file will be attached to the GitHub OIDC role as an inline policy.

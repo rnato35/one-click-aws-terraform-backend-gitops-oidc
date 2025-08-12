@@ -1,0 +1,27 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "FullAdminAccess",
+      "Effect": "Allow",
+      "Action": "*",
+      "Resource": "*"
+    },
+    {
+      "Sid": "DenyBillingAccess",
+      "Effect": "Deny",
+      "Action": [
+        "aws-portal:*",
+        "budgets:*",
+        "cur:*",
+        "ce:*",
+        "account:*",
+        "tax:*",
+        "payments:*",
+        "invoicing:*",
+        "freetier:*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
