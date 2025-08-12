@@ -56,8 +56,8 @@ infra/
 
 1) Clone the repo
 ```bash
-git clone https://github.com/rnato35/one-click-aws-terraform-bootstrap.git
-cd one-click-aws-terraform-bootstrap/infra/bootstrap
+git clone https://github.com/rnato35/one-click-aws-terraform-backend-gitops-oidc.git
+cd one-click-aws-terraform-backend-gitops-oidc/infra/bootstrap
 ```
 
 2) Set AWS credentials locally
@@ -122,7 +122,7 @@ terraform plan -var-file=dev/terraform.tfvars
 | `name_prefix` | `one-click` | Prefix used to name all created resources. |
 | `create_github_oidc` | `true` | Whether to create a GitHub OIDC provider and IAM role for GitHub Actions. |
 | `github_org` | `rnato35` | Your GitHub organization or username. Used to scope the OIDC trust policy. |
-| `github_repo` | `one-click-aws-terraform-bootstrap` | Name of the GitHub repository that will access this backend. |
+| `github_repo` | `one-click-aws-terraform-backend-gitops-oidc` | Name of the GitHub repository that will access this backend. |
 
 ---
 
