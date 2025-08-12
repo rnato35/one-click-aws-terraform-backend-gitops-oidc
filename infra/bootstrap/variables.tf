@@ -41,7 +41,7 @@ variable "tags" {
 variable "create_github_oidc" {
   type        = bool
   description = "Create GitHub OIDC provider and IAM role for CI"
-  default     = false
+  default     = true
 }
 
 variable "github_org" {
